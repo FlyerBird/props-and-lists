@@ -7,7 +7,7 @@ export default function Card(props) {
     <div className="card">
       <h3>{name}</h3>
 
-       <img src={image ? image : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Dog_silhouette.svg/2067px-Dog_silhouette.svg.png "} alt="animal Pic"/> 
+       <img src={image ? image : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Dog_silhouette.svg/2067px-Dog_silhouette.svg.png "} alt="animal Pic" width="100%"/> 
       
 
      
